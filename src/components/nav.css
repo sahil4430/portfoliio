@@ -1,0 +1,80 @@
+.me-auto {
+    font-family: "Purple Purse", serif;
+    color: aliceblue;
+  }
+  
+  
+  .nav-link:hover {
+    border-bottom: 3px solid #faf8f8; 
+  }
+
+
+.social-icon:hover {
+  color: #ddd;
+   /* Not sure about this property, as it's not valid CSS */
+}
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  color: white;
+  margin-right: 60px;
+}
+
+.navbar .nav-link:hover {
+  color: #ddd;
+}
+
+.navbar .social-icon {
+  color: white;
+  margin-left: 15px;
+  font-size: 1.2rem;
+}
+
+.navbar .social-icon:hover {
+  color: #313131;
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+  .navbar .nav-link {
+    margin-right: 30px;
+    font-size: 1rem;
+  }
+
+  .navbar .social-icon {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    margin-right: 20px;
+    font-size: 0.9rem;
+  }
+
+  .navbar .social-icon {
+    margin-left: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    margin-right: 10px;
+    font-size: 0.8rem;
+  }
+
+  .navbar .social-icon {
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+
+  .navbar .nav-link,
+  .navbar .social-icon {
+    display: block;
+    margin: 5px 0;
+  }
+}
