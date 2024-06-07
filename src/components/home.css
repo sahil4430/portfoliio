@@ -10,5 +10,98 @@
   }
 
   h1{
-    font-size: 60px;
+    font-size: 5vw;
+    border-bottom: 6px solid white;
+    /* position: absolute; */
+    width: 90px;
+    font-family: "Poppins" ,serif ;
    }
+  
+  .content {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .con{
+    padding: 2%;
+  }
+  .services {
+    margin: 1% 0; /* Reduced margin */
+  }
+  
+  .ic1 {
+    width: 13%; /* Use percentage to make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the image and the text */
+  }
+  
+  .app {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    margin-left: 0.4%;
+    margin-bottom: 1rem;
+  }
+  .p2{
+    font-family: "Quattrocento" ,serif ;
+    font-size: 1.6vw;
+  }
+  .p1 {
+    font-size: 1.6vw;
+    font-family: "Oswald" ,sans-serif ;
+  }
+  
+  .photo {
+    text-align: center; /* Center the image horizontally */
+  }
+  
+  .pic {
+    width: 100%; /* Make the image responsive */
+    max-width: 100%; /* Ensure it doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image within its container */
+    margin-top: 2rem; /* Add space at the top */
+  }
+  
+  @media (max-width: 768px) {
+    .ic1 {
+      width: 40%;
+    }
+  
+    .app {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .p1 {
+      font-size: 0.9rem;
+    }
+  
+    .pic {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 1rem; /* Adjust space at the top for smaller screens */
+    }
+  
+    .services {
+      text-align: center;
+      margin: 1% 0; /* Reduced margin for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .ic1 {
+      width: 50%;
+    }
+  
+    h1 {
+      font-size: 6vw;
+    }
+  
+    .content {
+      padding: 0.5rem;
+    }
+  
+    .pic {
+      width: 100%;
+      margin-top: 1rem; /* Adjust space at the top for smaller screens */
+    }
+  }
