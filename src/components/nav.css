@@ -75,6 +75,7 @@
   .navbar .nav-link,
   .navbar .social-icon {
     display: block;
+    
     margin: 5px 0;
   }
 }
