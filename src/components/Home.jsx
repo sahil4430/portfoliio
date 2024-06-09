@@ -59,15 +59,14 @@ export default function Home() {
             <div className='app'>
 
             <img src='.\3rd.png'className='ic1'></img>
-            <h5 className='p1'>  Mern Stack</h5>
+            <h5 className='p1'>  Mern Stack<br/>Devloper</h5>
           </div>
-          <h6 className='p2'>I am a App frontend developer (using flutter).
-            </h6>
         </Grid>
         <Grid item xs={4}>
-       44
+          <img src='.\Rectangle 19783.png' className='ic2'></img>
+          <img src=".\sahil.png"className="my"></img>
         </Grid>
-        <Grid item xs={4}>44
+        <Grid item xs={4}>< ></>  
         </Grid>
       </Grid>
     </Box>
