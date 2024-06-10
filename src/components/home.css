@@ -56,17 +56,39 @@
   }
   .p2{
     font-family: "Quattrocento" ,serif ;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
   }
   .p1 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-family: "Oswald" ,sans-serif ;
   }
-  
+  .p3{
+    font-size: 2.4vw;
+    font-family: "Oswald" ,sans-serif ;
+  }
+  .purple{
+    color: #BB86FC;
+    font-weight: bold;
+  }
   .photo {
     text-align: center; /* Center the image horizontally */
   }
-  
+  h5{
+    font-size: large;
+  }
+  .container{
+    margin-top: 0px;
+    margin-left: 50px;
+    width: auto;
+  }
+  .box{
+    text-align: center;
+    background-color: #303030;
+    height: 2.7vw;
+    width: 10.5vw;
+    border-radius: 8px;
+    padding-top: 2%;
+  }
   .pic {
     width: 100%; /* Make the image responsive */
     max-width: 100%; /* Ensure it doesn't exceed its container */
@@ -74,12 +96,10 @@
     margin: 0 auto; /* Center the image within its container */
     margin-top: 2rem; /* Add space at the top */
   }
-  
   @media (max-width: 768px) {
     .ic1 {
       width: 40%;
     }
-  
     .app {
       flex-direction: column;
       align-items: flex-start;

@@ -5,6 +5,7 @@ import { experimentalStyled as styled } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
+import { colors } from '@mui/material';
 export default function Home() {
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -66,7 +67,20 @@ export default function Home() {
           <img src='.\Rectangle 19783.png' className='ic2'></img>
           <img src=".\sahil.png"className="my"></img>
         </Grid>
-        <Grid item xs={4}>< ></>  
+        <Grid item xs={4}><div className='container'>
+        <h5>
+        UI/Ux and App frontend developer</h5> <br/>
+        <p className='p2'>Hi I'm <span className='purple'>Sahil</span> .A UI /Ux Designer  and Mern stack Developer .<br/>
+        I am a 2nd year CSE student with a keen interest in the design world. I love to create visually appealing and informative designs. Welcome!! to my small world of the internet......
+            </p>
+            <h2 className='p3'>2 Years </h2>
+            <p className='p2'>Experience 
+            </p>
+            
+            <div className='box'>
+              <p className='p2'>Download Cv</p>
+            </div>
+        </div>
         </Grid>
       </Grid>
     </Box>
