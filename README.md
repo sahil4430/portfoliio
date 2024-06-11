@@ -33,5 +33,5 @@ Completed my first project with GDSC MMDU's help</h5>
 <h3>Contact</h3>
 Feel free to reach out if you'd like to collaborate on a project or if you have any questions!
 
-Email: @panwarsahil204@gmail.com
+Email: panwarsahil204@gmail.com
 LinkedIn: [Sahil's LinkedIn](https://www.linkedin.com/in/sahil-panwar-715b27250/)
