@@ -5,6 +5,7 @@ import { experimentalStyled as styled } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
+import Service from './Service';
 import { colors } from '@mui/material';
 export default function Home() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -19,11 +20,9 @@ export default function Home() {
     <div className='body'>
     <NavBar></NavBar>
     <br/>
-    
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid item xs={5}>
-        
         </Grid>
         <Grid item xs={2}>
         <h1>
@@ -76,15 +75,15 @@ export default function Home() {
             <h2 className='p3'>2 Years </h2>
             <p className='p2'>Experience 
             </p>
-            
-            <div className='box'>
-              <p className='p2'>Download Cv</p>
-            </div>
+            <button className='box'>
+              <p className='p2'>Download CV</p>
+            </button>
         </div>
         </Grid>
       </Grid>
     </Box>
     </div>
+    <Service/>
     </>
     
   )

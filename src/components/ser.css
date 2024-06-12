@@ -1,0 +1,14 @@
+.strip{
+    height: 100px;
+    width:100%;
+    background-color: rgb(237, 237, 237);
+    color: black;
+    display: flex;
+    padding-top: 20px;
+}
+.img1{
+    height:80%;
+    margin-left: 7%;
+    filter: grayscale(50);
+    opacity: 30%;
+}

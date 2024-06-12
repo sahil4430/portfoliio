@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
+import Service from './components/Service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <div className='b'>
    <Home></Home>
+   {/* <Service/>  */}
    </div>
   
    

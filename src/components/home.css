@@ -86,8 +86,14 @@
     background-color: #303030;
     height: 2.7vw;
     width: 10.5vw;
+    color: aliceblue;
+    border: none;
     border-radius: 8px;
     padding-top: 2%;
+  }
+  .box:hover {
+    background-color: #BB86FC;
+    cursor: pointer;
   }
   .pic {
     width: 100%; /* Make the image responsive */
