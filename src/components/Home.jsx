@@ -62,7 +62,7 @@ export default function Home() {
             <h5 className='p1'>  Mern Stack<br/>Devloper</h5>
           </div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={d4}>
           <img src='.\Rectangle 19783.png' className='ic2'></img>
           <img src=".\sahil.png"className="my"></img>
         </Grid>
