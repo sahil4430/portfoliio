@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Service from './Service';
+import Spage from './Spage'
 import { colors } from '@mui/material';
 export default function Home() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -86,6 +87,7 @@ export default function Home() {
     </Box>
     </div>
     <Service/>
+    <Spage/>
     </>
     
   )
