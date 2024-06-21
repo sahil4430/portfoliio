@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import Service from './components/Service';
+import Spage from './components/Spage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <div className='b'>
-   <Home></Home>
-   {/* <Service/>  */}
+   <div >
+   {/* <Home></Home> */}
+   <Spage></Spage>
    </div>
   
    
