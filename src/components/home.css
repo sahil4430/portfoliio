@@ -84,7 +84,7 @@
     margin-left: 50px;
     width: auto;
   }
-  .box{
+  .button{
     text-align: center;
     background-color: #303030;
     height: 2.7vw;
@@ -94,7 +94,7 @@
     border-radius: 8px;
     padding-top: 2%;
   }
-  .box:hover {
+  .button:hover {
     background-color: #BB86FC;
     cursor: pointer;
   }

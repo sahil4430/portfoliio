@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import Service from './components/Service';
 import Spage from './components/Spage';
+import Recent from "./components/Recent"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

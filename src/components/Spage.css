@@ -52,6 +52,7 @@ h6{
 }
 .blur-background {
     background-image: url('./Fluid.png');
+    background-color: #000;
     background-size: cover;
     background-position: center;
     filter: blur(3px); 
@@ -98,10 +99,10 @@ h6{
     color: white;
     border: 1px solid #DDDDDD;
     
-    margin-bottom: 20px; /* Add margin to separate rows */
+    margin-bottom: 20px; 
 }
 
-/* Responsive styles */
+
 @media (max-width: 1200px) {
     .Box {
         width: 45%; /* Adjust width for larger screens */
