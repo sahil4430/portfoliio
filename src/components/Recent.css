@@ -10,9 +10,26 @@
 .tabs{
     background-color: #1E1E1E;
     width: 100%;
-    height: 4vw;
-    display: flex
-    
-    
-    ;
+    height: 5vw;
+    display: flex;
+    border-radius: 0.7vw;
+    padding: 1vw;
+    margin-bottom: 3vw;
+    justify-content: space-between;
+}
+.tab1{
+    background-color: #03DAC6;
+    color:#1E1E1E;
+    font-weight: 500;
+    width: 9vw;
+    border-radius: 0.55vw;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+}
+.tab{
+    padding-top: 0.2vw;
+    font-size: 1.5vw;
+}
+.service{
+    width: 100%;
 }

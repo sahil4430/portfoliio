@@ -25,6 +25,7 @@ function Recent() {
           UI/UX
           </div>
         </div>
+        <img src='./mycoontainer.png' className='service'alt='img'></img>
     </div>
     </>
   )
