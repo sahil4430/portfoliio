@@ -7,12 +7,14 @@ import Home from './components/Home';
 import Service from './components/Service';
 import Spage from './components/Spage';
 import Recent from "./components/Recent"
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <div >
    <Home></Home>
+   {/* <Contact/> */}
    
    </div>
   

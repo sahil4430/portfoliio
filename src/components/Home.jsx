@@ -9,6 +9,7 @@ import Service from './Service';
 import Spage from './Spage';
 import Recent from "./Recent";
 import { colors } from '@mui/material';
+import Contact from './Contact';
 export default function Home() {
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -90,6 +91,7 @@ export default function Home() {
     <Service/>
     <Spage/>
     <Recent/>
+    <Contact/>
     </>
     
   )
