@@ -8,21 +8,33 @@ import Paper from '@mui/material/Paper';
 import Service from './Service';
 import Spage from './Spage';
 import Recent from "./Recent";
+import Axios from "axios";
+import FileDownload from "js-file-download";
 import { colors } from '@mui/material';
 import Contact from './Contact';
 import { Download } from '@mui/icons-material';
 
 export default function Home() {
-  const cvpdf="http://localhost:3000/SAHIL_PANWAR_(1).pdf"
-  const downloadFile = (url) => {
-    const aTag = document.createElement('a');
-    const filename = url.split('/').pop();
-    aTag.href = url;
-    aTag.setAttribute('download', filename);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
+  const download=(e)=>{
+    e.preventDefault()
+    Axios({
+      url:"http://localhost:3000",
+      method:"GET",
+      responseType:"blob"
+    }).then((res)=>{
+      FileDownload(res.data,"resume.pdf")
+    })
   }
+  // const cvpdf="http://localhost:3000/SAHIL_PANWAR_(1).pdf"
+  // const downloadFile = (url) => {
+  //   const aTag = document.createElement('a');
+  //   const filename = url.split('/').pop();
+  //   aTag.href = url;
+  //   aTag.setAttribute('download', filename);
+  //   document.body.appendChild(aTag);
+  //   aTag.click();
+  //   aTag.remove();
+  // }
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
@@ -92,7 +104,7 @@ export default function Home() {
             <h2 className='p3'>2 Years </h2>
             <p className='p2'>Experience 
             </p>
-            <button className='button' type='button' onClick={()=>{downloadFile(cvpdf)}}>
+            <button className='button' type='button' onClick={(e)=>{download(e)}}>
               <p className='p2'>Download CV</p>
             </button>
         </div>
