@@ -90,9 +90,12 @@ function Contact() {
         />
     </Box>
     <br/>
-    <Button variant="contained" endIcon={<SendIcon />}>
+    <Button variant="contained" endIcon={<SendIcon />} className='send' style={{ backgroundColor: "#9747FF",marginLeft: "69%"}}>
         Send
       </Button>
+              
+              
+          
     </div>
     </>
   )

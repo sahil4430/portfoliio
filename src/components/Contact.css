@@ -4,3 +4,9 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
+.send{
+    background-color: #9747FF;
+    border: none;
+    color: #fff;
+    margin-left: 69%;
+}
